@@ -6,19 +6,21 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AEIS DOCS',
-  tagline: 'Documentation for AEIS',
+  tagline: 'Repositorio de apuntes Aeis',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://Rikardo816.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Aeis-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  deploymentBranch: 'gh-pages',
+  organizationName: 'Rikardo816', // Usually your GitHub org/user name.
   projectName: 'AEIS-DOCS', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,12 +68,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/aeis-img.jpeg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmHb3jRghIC82pTUhkVK3LSPC9F5k7oL_gg&s',
     navbar: {
       title: 'AEIS DOCS',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Aeis Logo',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmHb3jRghIC82pTUhkVK3LSPC9F5k7oL_gg&s',
       },
       items: [
         {
