@@ -21,14 +21,32 @@ const sidebars: SidebarsConfig = {
     "intro",
     {
       type: "category",
-      label: "Computación",
-      items: ["Computación/Primer-Nivel/materia1", "Computación/Primer-Nivel/materia2"],
+      label: "Computacion", // Sin tilde
+      items: [
+        {
+          type: "category",
+          label: "Primer Nivel",
+          items: [
+            "Computacion/Primer-Nivel/materia1",
+            "Computacion/Primer-Nivel/materia2",
+          ],
+        },
+      ],
     },
     {
       type: "category",
       label: "Software",
-      items: ["Software/Primer-Nivel/materia1", "Software/Primer-Nivel/materia2"],
-    }
+      items: [
+        {
+          type: "category",
+          label: "Primer Nivel",
+          items: [
+            "Software/Primer-Nivel/materia1",
+            "Software/Primer-Nivel/materia2",
+          ],
+        },
+      ],
+    },
   ],
 };
 
