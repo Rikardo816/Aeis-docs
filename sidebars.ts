@@ -21,19 +21,14 @@ const sidebars: SidebarsConfig = {
     "intro",
     {
       type: "category",
-      label: "Primer Nivel",
-      items: ["primer-nivel/materia1", "primer-nivel/materia2"],
+      label: "Computación",
+      items: ["Computación/Primer-Nivel/materia1", "Computación/Primer-Nivel/materia2"],
     },
     {
       type: "category",
-      label: "Segundo Nivel",
-      items: ["segundo-nivel/materia3", "segundo-nivel/materia4"],
-    },
-    {
-      type: "category",
-      label: "Tercer Nivel",
-      items: ["tercer-nivel/materia5", "tercer-nivel/materia6"],
-    },
+      label: "Software",
+      items: ["Software/Primer-Nivel/materia1", "Software/Primer-Nivel/materia2"],
+    }
   ],
 };
 
