@@ -13,13 +13,13 @@ const config: Config = {
   url: 'https://Rikardo816.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AEIS-DOCS/',
+  baseUrl: '/Aeis-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   deploymentBranch: 'gh-pages',
   organizationName: 'Rikardo816', // Usually your GitHub org/user name.
-  projectName: 'AEIS-DOCS', // Usually your repo name.
+  projectName: 'Aeis-docs', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'ignore',
