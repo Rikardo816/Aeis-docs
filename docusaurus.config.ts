@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: 'main',
   organizationName: 'Rikardo816', // Usually your GitHub org/user name.
   projectName: 'AEIS-DOCS', // Usually your repo name.
   trailingSlash: false,
